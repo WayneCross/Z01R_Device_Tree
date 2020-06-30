@@ -57,4 +57,8 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+   
+     // Asus Camera
+    property_override("ro.product.device", "ASUS_Z01R_1");
+	
 }
